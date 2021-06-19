@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          th, td {
+            text-align: left;
+            padding: 8px;
+          }
+          
+          tr:nth-child(even) {background-color: #f2f2f2;}
+         
+          input[type=submit],button
+          {
+            color:black;
+            border:1px solid lightseagreen;
+            background-color:lightblue;
+            border-radius:50px;
+            padding-left:10%;
+          }
+          input[type=submit]:hover,button:hover
+          {
+              color:black;
+              border-radius:50px;
+              background-color:lightblue;
+              border:1px solid lightskyblue;
+          }
+          radio,button,submit
+          {
+              padding-left:10%;
+          }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center;color:lightslategray;">FILTERING PAGE</h1><br>
+    <p>NOTE: By default the selected column will be applied in descending order</p>
+    <h3>{{err}}</h3><br>
+    <form method="POST" action="{{ url_for('sort') }}">
+        Enter the column to sort <input type="text" name="col"/>
+        <input type="radio" name="srt" id="asc" value="asc"/>ascending
+        <input type="radio" name="srt" id="desc" value="dsc"/>descending
+        <button type="submit" id="sorts">Result</button>
+         <br><br>
+    </form>
+            {% for column_name in keys1 %}
+              <div style="border-radius:5px;width:fit-content;float:left;color:black;background-color:darkturquoise;margin:4px;padding:3px;">
+                 {{column_name}}
+              </div>
+            {% endfor %}
+            <table>
+                <th>
+                    {% for header in dataset_key %}
+                    
+                        <td style="background-color:lightblue;">
+                            {{header}}
+                        </td>
+                   
+                    {% endfor %}
+                 </th>
+                 {% for row in dataset_lists %}
+                 <tr>
+                     <td></td>
+                     {% for cell in len_valued %}
+                         <td>{{cell[row]}}</td>
+                      {% endfor %}
+                 </tr>
+               {% endfor %}
+                
+            
+            </table>
+    
+</body>
+</html>

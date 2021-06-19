@@ -1,0 +1,12 @@
+index,item_id,name,category,price,old_price,sellable_online,link,other_colors,short_description,designer,depth,height,width
+0,90420332,FREKVENS,Bar furniture,265,No old price,TRUE,https://www.ikea.com/sa/en/p/frekvens-bar-table-in-outdoor-black-90420332/,No,"        Bar table, in/outdoor,          51x51 cm",Nicholai Wiig Hansen,,99,51
+1,368814,NORDVIKEN,Bar furniture,995,No old price,FALSE,https://www.ikea.com/sa/en/p/nordviken-bar-table-black-00368814/,No,"        Bar table,          140x80 cm",Francis Cayouette,,105,80
+2,9333523,NORDVIKEN / NORDVIKEN,Bar furniture,2095,No old price,FALSE,https://www.ikea.com/sa/en/p/nordviken-nordviken-bar-table-and-4-bar-stools-black-black-s09333523/,No,        Bar table and 4 bar stools,Francis Cayouette,,,
+3,80155205,STIG,Bar furniture,69,No old price,TRUE,https://www.ikea.com/sa/en/p/stig-bar-stool-with-backrest-black-silver-colour-80155205/,Yes,"        Bar stool with backrest,          74 cm",Henrik Preutz,50,100,60
+4,30180504,NORBERG,Bar furniture,225,No old price,TRUE,https://www.ikea.com/sa/en/p/norberg-wall-mounted-drop-leaf-table-white-30180504/,No,"        Wall-mounted drop-leaf table,          74x60 cm",Marcus Arvonen,60,43,74
+5,10122647,INGOLF,Bar furniture,345,No old price,TRUE,https://www.ikea.com/sa/en/p/ingolf-bar-stool-with-backrest-white-10122647/,No,"        Bar stool with backrest,          63 cm",Carina Bengs,45,91,40
+6,70404875,FRANKLIN,Bar furniture,129,No old price,TRUE,https://www.ikea.com/sa/en/p/franklin-bar-stool-with-backrest-foldable-white-white-70404875/,No,"        Bar stool with backrest, foldable,          63 cm",K Hagberg/M Hagberg,44,95,50
+7,60155602,DALFRED,Bar furniture,195,No old price,TRUE,https://www.ikea.com/sa/en/p/dalfred-bar-stool-black-60155602/,No,"        Bar stool,          63-74 cm",Sarah Fager,50,,50
+8,50406465,FRANKLIN,Bar furniture,129,No old price,TRUE,https://www.ikea.com/sa/en/p/franklin-bar-stool-with-backrest-foldable-black-black-50406465/,No,"        Bar stool with backrest, foldable,          63 cm",K Hagberg/M Hagberg,44,95,50
+9,69304221,EKEDALEN / EKEDALEN,Bar furniture,2176,"SR 2,375",TRUE,https://www.ikea.com/sa/en/p/ekedalen-ekedalen-bar-table-and-4-bar-stools-dark-brown-orrsta-light-grey-s69304221/,No,        Bar table and 4 bar stools,Ehlén Johansson,,,
+10,90404879,FRANKLIN,Bar furniture,149,No old price,TRUE,https://www.ikea.com/sa/en/p/franklin-bar-stool-with-backrest-foldable-white-white-90404879/,No,"        Bar stool with backrest, foldable,          74 cm",K Hagberg/M Hagberg,44,103,52
