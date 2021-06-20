@@ -1,13 +1,13 @@
 from flask import Flask,render_template,request,session
 import pandas as pd
-
+#creating object for Flask class
 app=Flask(__name__)
 app.secret_key="jnvkjhflddfbsjk"
-
+#invoking index.html
 @app.route("/",methods=["GET","POST"])
 def index():
     return render_template("index.html")
-
+#displays the csv file in webpage
 @app.route("/index1",methods=["GET","POST"])
 def index1():
     session['file_path']=request.form.get("csvFileInput")
@@ -24,7 +24,7 @@ def index1():
     for y in datasetvalues:
         list1.append(y)
     return render_template("index.html",dataset_keys=datasetkeys,dataset_values=datasetvalues,dataset_list=dataset_list,len_values=list1)
-
+#sorts the csv file based on column name provided by the users
 @app.route("/sort",methods=["GET","POST"])
 def sort():
     error=""
